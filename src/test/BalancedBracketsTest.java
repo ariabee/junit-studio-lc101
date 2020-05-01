@@ -80,4 +80,13 @@ public class BalancedBracketsTest {
         assertFalse(BalancedBrackets.hasBalancedBrackets("]launch[]"));
     }
 
+    /**
+     * Demonstrating what happens when we *want* to expect a NullPointerException to be thrown.
+     * Note that we probably should account for this in the method instead
+     */
+//    @Test(expected = NullPointerException.class)
+//    public void nullStringThrowsNullPointer() {
+//        BalancedBrackets.hasBalancedBrackets(null);
+//    }
+
 }

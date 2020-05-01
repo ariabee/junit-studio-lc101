@@ -41,6 +41,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.BalancedBrackets" />
+      <module name="junit-studio-lc101" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -80,6 +94,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BalancedBracketsTest.nullStringThrowsNullPointer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="nullStringThrowsNullPointer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedBracketsTest.wrongOrderBracketsReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="wrongOrderBracketsReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -108,6 +156,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BalancedBracketsTest" />
+        <item itemvalue="JUnit.BalancedBracketsTest.nullStringThrowsNullPointer" />
+        <item itemvalue="Application.BalancedBrackets" />
+        <item itemvalue="JUnit.BalancedBracketsTest.wrongOrderBracketsReturnsFalse" />
         <item itemvalue="JUnit.BalancedBracketsTest.emptyTest" />
       </list>
     </recent_temporary>
@@ -126,21 +177,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1185" height="223" key="GridCell.Tab.0.bottom" timestamp="1588355635311">
+    <state width="1185" height="223" key="GridCell.Tab.0.bottom" timestamp="1588360862137">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1185" height="223" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588355635311" />
-    <state width="1185" height="223" key="GridCell.Tab.0.center" timestamp="1588355635309">
+    <state width="1185" height="223" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588360862137" />
+    <state width="1185" height="223" key="GridCell.Tab.0.center" timestamp="1588360862136">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1185" height="223" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1588355635309" />
-    <state width="1185" height="223" key="GridCell.Tab.0.left" timestamp="1588355635306">
+    <state width="1185" height="223" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1588360862136" />
+    <state width="1185" height="223" key="GridCell.Tab.0.left" timestamp="1588360862135">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1185" height="223" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1588355635306" />
-    <state width="1185" height="223" key="GridCell.Tab.0.right" timestamp="1588355635310">
+    <state width="1185" height="223" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1588360862135" />
+    <state width="1185" height="223" key="GridCell.Tab.0.right" timestamp="1588360862137">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1185" height="223" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1588355635310" />
+    <state width="1185" height="223" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1588360862137" />
   </component>
 </project>

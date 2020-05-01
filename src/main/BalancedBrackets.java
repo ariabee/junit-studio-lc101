@@ -23,6 +23,11 @@ public class BalancedBrackets {
      */
     public static boolean hasBalancedBrackets(String str) {
         int brackets = 0;
+
+        if (str == null) { // DEMO: showing what happens if the method handles null strings (like it should)
+            return true;
+        }
+
         for (char ch : str.toCharArray()) {
             if (brackets >= 0) { // Make sure the first bracket is not "]", setting brackets to -1
                 if (ch == '[') {
@@ -31,9 +36,17 @@ public class BalancedBrackets {
                     brackets--;
                 }
             } else {
+                System.out.println("returned false");
                 return false;
             }
         }
         return brackets == 0;
     }
+/**
+ * Demonstrating why a NullPointerException is thrown by Java,
+ * without us having to "throw" the exception in the method
+ */
+//    public static void main(String[] args) {
+//        hasBalancedBrackets(null);
+//    }
 }
